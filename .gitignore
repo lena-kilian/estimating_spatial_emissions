@@ -4,3 +4,7 @@
 !LICENSE
 !*.py
 !.gitignore
+
+demand_functions.py
+io_functions.py
+LCFS_functions.py

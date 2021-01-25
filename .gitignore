@@ -5,10 +5,19 @@
 !*.py
 !.gitignore
 
+# Files in subfolders
+!Spatial_Temporal_Analysis/*.py
+!Estimating_Emissions/*.py
+
+# Specific files to ignore
 demand_functions.py
 io_functions.py
 LCFS_functions.py
-
 Estimating_Emissions/demand_functions.py
 Estimating_Emissions/io_functions.py
 Estimating_Emissions/LCFS_functions.py
+
+
+
+
+

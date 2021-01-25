@@ -18,3 +18,21 @@ Training in spatial-temporal analysis is undertaken and included in this reposit
 
 ### Next steps
 The spatial-temporal analysis needs to be extended to product types. In addition, socio-demographic variables are needed to assess correlations between these and to construct models to predict product-level emissions, which are robust over time. 
+
+### References
+__Background__
+- Druckman, A. and Jackson, T. 2008. Household energy consumption in the UK: A highly geographically and socio-economically disaggregated model. Energy Policy. 36(8), pp.3167–3182.
+- Girod, B. and de Haan, P. 2009. GHG reduction potential of changes in consumption patterns and higher quality levels: Evidence from Swiss household consumption survey. Energy Policy. 37(12), pp.5650–5661.
+- Girod, B. and de Haan, P. 2010. More or better? A model for changes in household greenhouse gas emissions due to higher income. Journal of Industrial Ecology. 14(1), pp.31–49.
+- Lenzen, M., Dey, C. and Foran, B. 2004. Energy requirements of Sydney households. Ecological Economics. 49(3), pp.375–399.
+- Minx, J.C., Baiocchi, G., Wiedmann, T.O., Barrett, J., Creutzig, F., Feng, K., Förster, M., Pichler, P.-P.P., Weisz, H. and Hubacek, K. 2013. Carbon footprints of cities and other human settlements in the UK. Environmental Research Letters. 8(3), pp.1–10.
+- Vringer, K. and Blok, K. 1995. The direct and indirect energy requirements of households in the Netherlands. Energy Policy. 23(10), pp.893–910.
+Wier, M., Lenzen, M., Munksgaard, J. and Smed, S. 2001. Effects of household consumption patterns on CO2 requirements. Economic Systems Research. 13(3), pp.259–274.
+
+
+
+__Training Links__
+- http://darribas.org/gds_scipy16/ipynb_md/05_spatial_dynamics.html
+- https://pysal.org/notebooks/explore/giddy/Markov_Based_Methods.html
+- https://pysal.org/notebooks/lib/libpysal/weights.html
+

@@ -6,8 +6,7 @@
 !.gitignore
 
 # Files in subfolders
-!Spatial_Temporal_Analysis/*.py
-!Estimating_Emissions/*.py
+data/
 
 # Specific files to ignore
 *_functions.py

@@ -4,12 +4,16 @@
 !LICENSE
 !*.py
 !.gitignore
+!.gitkeep
 
 # Files in subfolders
 data/
+!src/
 
 # Specific files to ignore
-*_functions.py
+*LCFS_functions.py
+*demand_functions.py
+*io_functions.py
 
 
 

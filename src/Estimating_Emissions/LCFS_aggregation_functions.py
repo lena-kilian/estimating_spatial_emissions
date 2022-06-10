@@ -59,19 +59,19 @@ def count_oac(hhdspend_lcfs, all_oac, years):
     
         temp = temp.loc[temp['count'] < 10].drop_duplicates()
         OACs = temp.reset_index().groupby(['GOR', 'Supergroup', 'Group'])['OAC'].apply(', '.join); OACs.columns = ['OAC']
-        temp = temp.sum(level=['GOR', 'Supergroup', 'Group']).join(OACs).drop_duplicates()
+        temp = temp.sum(level=['GOR', 'Supergroup', 'Group'])[['count']].join(OACs).drop_duplicates()
         full_index_lookup[year]['Group_pass'] = temp.loc[temp['count'] >= 10]
         full_index_lookup[year]['Group_pass'] = full_index_lookup[year]['Group_pass'].join(full_index_lookup[year]['Group_pass']['OAC'].str.split(', ', expand = True))
     
         temp = temp.loc[temp['count'] < 10].drop_duplicates()
         OACs = temp.reset_index().groupby(['GOR', 'Supergroup'])['OAC'].apply(', '.join); OACs.columns = ['OAC']
-        temp = temp.sum(level=['GOR', 'Supergroup']).join(OACs).drop_duplicates()
+        temp = temp.sum(level=['GOR', 'Supergroup'])[['count']].join(OACs).drop_duplicates()
         full_index_lookup[year]['Supergroup_pass'] = temp.loc[temp['count'] >= 10]
         full_index_lookup[year]['Supergroup_pass'] = full_index_lookup[year]['Supergroup_pass'].join(full_index_lookup[year]['Supergroup_pass']['OAC'].str.split(', ', expand = True))
         
         temp = temp.loc[temp['count'] < 10]
         OACs = temp.reset_index().groupby(['Supergroup'])['OAC'].apply(', '.join); OACs.columns = ['OAC']
-        temp = temp.sum(level=['Supergroup']).join(OACs).drop_duplicates()
+        temp = temp.sum(level=['Supergroup'])[['count']].join(OACs).drop_duplicates()
         full_index_lookup[year]['Supergroup_UK_pass'] = temp.loc[temp['count'] >= 10].drop_duplicates()
         full_index_lookup[year]['Supergroup_UK_pass'] = full_index_lookup[year]['Supergroup_UK_pass']
         

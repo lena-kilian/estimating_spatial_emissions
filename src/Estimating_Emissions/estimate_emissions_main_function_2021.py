@@ -20,7 +20,7 @@ df = pd.DataFrame
 def make_area_footprint(geog, first_year, last_year, working_directory):
     
     """
-    Claculate consumption-based household GHG emissions for MSOAs or LSOAs from the LCFS (emissios calculated in LCFS_aggregation_combined_years.py) and the UKMRIO 2020
+    Calculate consumption-based household GHG emissions for MSOAs or LSOAs from the LCFS (emissios calculated in LCFS_aggregation_combined_years.py) and the UKMRIO 2020
     
     geog = LSOA or MSOA as str
     first_year = first year to calculate footprint as int

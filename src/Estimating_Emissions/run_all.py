@@ -13,11 +13,11 @@ import estimate_emissions_main_function_2021 as estimate_emissions
 
 wd = '/Users/lenakilian/Documents/Ausbildung/UoLeeds/PhD/Analysis'
 geog = 'MSOA'
-combine_years = 1
+combine_years = 2
 sd_limit = 3.5
 
-first_year = 2013
-last_year = 2014
+first_year = 2015
+last_year = 2016
 
 
 # cannot combine 2013 and 2014 - so have to take mean here!

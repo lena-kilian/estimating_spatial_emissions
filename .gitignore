@@ -11,10 +11,6 @@ data/
 !src/
 
 # Specific files to ignore
-*LCFS_functions.py
-*demand_functions.py
-*io_functions.py
-
 
 
 
